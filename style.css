@@ -64,6 +64,10 @@ nav{
     color: #868380;
 }
 
+.smoky-perfume{
+    display: none;
+}
+
 .below-nav-section1 span img{
     width: 22%;
     border: 2px solid white;
@@ -767,6 +771,141 @@ footer p{
         width: 100%;
         padding-right: 0;
         margin-bottom: 40px;
+    }
+
+    @media screen {
+        /* .below-nav{
+            height: auto;
+        } */
+        .below-nav-section1{
+            height: auto;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .below-nav-section1 h2{
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+
+        .below-nav-section1 h3{
+            text-align: start;
+            font-size: 27px;
+        }
+
+        .smoky-perfume{
+            display: block;
+        }
+
+        .smoky-perfume img{
+            width: 100%;
+            border: 2px solid white;
+        }
+        
+        .below-nav-section2{
+            display: none;
+        }
+
+        .below-nav-section1 p{
+            font-size: 19px;
+            padding-top: 5px;
+        }
+
+        .below-nav-section1 h2{
+            text-align: start;
+            margin-top: 30px;
+        }
+
+        .below-nav-section1 span img{
+            width: 20%;
+            margin-bottom: 30px;
+        }
+
+        .mid-part{
+            /* align-items: center; */
+            padding-left: 0;
+            width: 100%;
+        }
+
+        .mid-part h2{
+            text-align: start;
+            font-size: 26px;
+            padding-left: 40px;
+        }
+
+        .mid-part2{
+            width: 100%;
+            padding-left: 65px;
+        }
+
+        .mid-section1{
+            margin-bottom: 50px;
+        }
+
+        .mid-section3{
+            width: 100%;
+            height: auto;
+            margin-left: 0;
+            align-items: start;
+        }
+
+        .mid-section3 h3{
+            width: 100%;
+            text-align: start;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .mid-section3 p{
+            font-size: 16px;
+            color: #868380;
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+
+        .chanel-perfume-section{
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            
+        }
+
+        .chanel-image-part{
+            width: 100%;
+            margin-left: 0;
+            padding-left: 35px;
+        }
+
+        .chanel-image-part img{
+           height: auto;
+        }
+
+        .chanel-text-part{
+            width: 100%;
+            height: auto;
+            margin: 0;
+            align-items: start;
+        }
+
+        .chanel-text-part h2, h3{
+            width: 78%;
+            font-size: 40px;
+            text-align: start;
+            padding-left: 40px;
+        }
+
+        .chanel-text-part h3{
+            font-weight: lighter;
+        }
+
+        .chanel-text-part span p{
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+
+
     }
 }
 
